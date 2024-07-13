@@ -14,12 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: var(--Dark-Grey, #262626);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -28,6 +25,51 @@
   color: #61dafb;
 }
 
+.Menu-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 4px solid var(--Blue, #2271D1);
+}
+
+.container-buttons-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+button{
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+
+  padding: 15px 22px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  &:hover {
+    border: 2px solid var(--Blue, #2271D1);
+    box-shadow: 0px 5px 29px 0px #2271D1B2;
+    color: var(--Blue, #2271D1);
+
+  }
+}
+.FRONT{
+  background-color: #6BD1FF;
+  border: 2px solid #6BD1FF
+}
+.BACK{
+  background-color: #27a340;
+  border: 2px solid #27a340
+}
+.INNOVACION{
+  background-color: #8a7e13;
+  border: 2px solid #8a7e13
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

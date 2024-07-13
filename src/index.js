@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import FormNewVideo from './components/FormNewVideo';
+import Template from './components/Template/Template';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/nuevoVideo" element={<Template><FormNewVideo/></Template>} />
+        </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

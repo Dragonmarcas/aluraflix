@@ -1,0 +1,49 @@
+.banner-container{
+    background: url("https://s3-alpha-sig.figma.com/img/75f2/8f03/874fa44266e31d1ef1408b08b3b9b20c?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XIQgdYUuTKppl1H1L3XhW0S5sLpMW655dcwfWDE4BbWeCWZ49ILkf2SzPXjLiMscZeQ-cWfQyMiibRIudpqxx-7swRm9yH0~6qtVXjJmCSofwK5~PdyB4T831~CastRrLOZ8979K~n3~wKkvsI7DwpayACBDZJDtk1ZWhus-uVtlzqoWMt0pMpnRTKFSxogNWqSM0CwlY7x7BU-YtF97Y6uyNLnnHESyARf0oXUnH9QOuVQhThn5SuJ67g~m0~s508-XhCdR89RUzflNWqPt3yzYMWlFixpXCmVklf-mvBIX8PdUuxqH92QvqvO5v46wrF81wOXl~oFb0pHUv34Nag__");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 832px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.rectangulo{
+  position: absolute;
+  width: 100%;
+  height: 832px;
+  background: #0012338F;
+  z-index: 1;
+}
+
+.container-card-home{
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    width: 1363.78px;
+    height: 333.58px;
+}
+.container-card-home>div{
+    width: 665.84px;
+    height: 305px;
+}
+.container-card-home>img{
+        width: 647.79px;
+        height: 333.58px;
+        border-radius: 20px;
+
+}
+
+.FRONT{
+    border: 5px solid #6BD1FF
+  }
+  .BACK{
+    border: 5px solid #27a340
+  }
+  .INNOVACION{
+    border: 5px solid #8a7e13
+  }
+  

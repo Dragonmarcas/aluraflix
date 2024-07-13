@@ -1,0 +1,13 @@
+.video-container{
+    display: flex;
+    justify-content:center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container{
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
